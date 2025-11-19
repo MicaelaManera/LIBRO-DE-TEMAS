@@ -1,0 +1,37 @@
+.
+├── **backend/** (Servidor API - Node.js/Express o NestJS)
+│   ├── **src/** (Código fuente del servidor)
+│   │   ├── **controllers/** (Manejan la entrada y salida de las peticiones - API Endpoints)
+│   │   ├── **services/** (Contiene la lógica de negocio principal)
+│   │   ├── **models/** (Definición de estructuras de datos/Esquemas de la DB)
+│   │   ├── **routes/** (Define los endpoints de la API: /users, /classes, /signatures)
+│   │   └── **config/** (Configuración de la Base de Datos, variables de entorno)
+│   ├── **migrations/** (Scripts para crear y modificar las tablas de la Base de Datos)
+│   ├── **seeds/** (Datos iniciales de prueba: usuarios Directivos, Preceptores, etc.)
+│   ├── package.json
+│   └── .env
+│
+├── **frontend-web/** (Aplicación Web - React)
+│   ├── **public/** (Archivos estáticos: index.html, favicon)
+│   ├── **src/** (Código fuente de la interfaz web)
+│   │   ├── **components/** (Piezas reutilizables de UI: Botones, Navbar, Footer)
+│   │   ├── **pages/** (Componentes de las vistas principales: Login, Dashboard Directivo, Reportes)
+│   │   ├── **services/** (Manejo de llamadas a la API del Backend)
+│   │   └── **styles/** (Archivos CSS/SASS/Styled-Components)
+│   └── package.json
+│
+├── **frontend-mobile/** (Aplicación Móvil - React Native)
+│   ├── **android/** (Archivos nativos de Android)
+│   ├── **ios/** (Archivos nativos de iOS)
+│   ├── **src/** (Código fuente de la interfaz móvil)
+│   │   ├── **components/** (Componentes de UI específicos de móvil)
+│   │   ├── **screens/** (Vistas principales: Login, Registro de Tema, Scanner)
+│   │   ├── **navigation/** (Estructura de navegación entre pantallas)
+│   │   └── **assets/** (Imágenes, iconos, fuentes)
+│   └── package.json
+│
+├── **docs/** (Documentación del Proyecto)
+│   └── **Figma-Prototype-Link.txt** (O puedes incluir aquí capturas de pantalla)
+│
+├── **.gitignore** (Define qué archivos ignorar al subir al repositorio)
+└── **README.md** (El archivo de presentación del proyecto)
